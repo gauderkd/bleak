@@ -1,11 +1,11 @@
 {
-  "name": "bleak-Draconis",
-  "version": "1.0",
+  "name": "Bleak-Draconis",
+  "version": "1.1",
   "description": "Ghost Theme",
   "author": "Peter Amende (edits by Kyle Gauder)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zutrinken/bleak.git"
+    "url": "https://github.com/gauderkd/bleak-Draconis"
   },
   "license": "MIT",
   "devDependencies": {
