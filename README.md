@@ -2,9 +2,46 @@
 
 An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
 
+Edits made by [Kyle Gauder](http://fdraconis.com)
+
 ***
 
-_**Hint:** This theme works with AJAX, so it won’t work with multiple domains properly! Use redirects to only one domain instead. Also make sure you haven’t jQuery injected in your footer due to [Ghosts migration method](http://dev.ghost.org/no-more-jquery/). This can break the layout!_
+# Main Edited Files
+
+### index.hbs
+
+- Added Social Icons using Font Awesome.
+
+### default.hbs
+
+- Added link to Font Awesome stylesheet
+- Removed ".nav-menu" and ".menu" hierarchy (no pop-up menu).
+- Moved {{navigation}} HB expression from footer to body where nav-menu was
+
+### /partials/loop.hbs
+
+- Changed "post-excerpt" word number from 15 to 50 (line 19)
+
+### /partials/navigation.hbs
+
+- Removed "#menu" hierarchy completely and replaced with simple ".drakonav" <nav> tag (gets rid of pop-up menu structure, pushes menu into top bar)
+- Changed list class from ".menu-list-item" to ".drakolist"
+
+### style.css
+
+- Reformatted code (never worked with sourcemapping before :c )
+- Added CSS variable "root" container.
+- This has four variables: Main color, secondary Color, Title Font, and main "everything else" font
+- _Font color of hover'd <a> tag links is on line 154. This needs to be changed manually. It didn't like the variable..._
+- Added support for Kankin Font
+- Changed all instances of Color Code: #36D995 to Main color variable
+- Changed all instances of Color Code: #2DB77E to Secondary color variable
+- Added font-family: Title Font variable for .header-name
+- Added featured:hovered coding for different effect when hovering over a Featured post
+- Added styling for navigation bar to make it appear along the top bar (aligned to the right)
+- Added hover effects for Font Awesome social icons
+
+# The Rest of The Readme
 
 ## Demo
 
