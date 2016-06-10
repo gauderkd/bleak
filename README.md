@@ -2,7 +2,7 @@
 
 An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
 
-Edits made by [Kyle Gauder](http://fdraconis.com). See the original theme [here](https://github.com/zutrinken/bleak).
+Edits made by [Kyle Gauder](http://fdraconis.com). You can find the original theme [here](https://github.com/zutrinken/bleak).
 
 ***
 
@@ -13,8 +13,10 @@ Here is what the edited theme looks like
 - Easy CSS Variables for changing Theme Color scheme and Fonts
 - Menu pushed into top bar as text
 - Different hover effect for Featured posts
-- Social Icons (from [Font Awesome](http://fontawesome.io/icons/))
+- Social Icons (from [Font Awesome](http://fontawesome.io/icons/)) with hover effects
 - Increased excerpt length
+
+[Click here to see the theme in action](http://www.fdraconis.com/)
 
 # Main Edited Files
 
