@@ -1,14 +1,8 @@
-<div id="menu" data-target="menu">
-	<div class="menu-header">
-		<span class="menu-label">Menu</span>
-		<a class="menu-close" data-action="menu" data-target="menu"></a>
-	</div>
-	<ul class="menu-list">
+<nav class="drakonav">
 		{{#foreach navigation}}
-		<li class="menu-list-item">
+		<li class="drakolist">
 			<a class="{{slug}}{{#if current}} current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
 		</li>
 		{{/foreach}}
-	</ul>
-</div>
+</nav>
 <div class="overlay"></div>
