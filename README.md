@@ -2,19 +2,30 @@
 
 An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
 
-Edits made by [Kyle Gauder](http://fdraconis.com)
+Edits made by [Kyle Gauder](http://fdraconis.com). See the original theme [here](https://github.com/zutrinken/bleak).
 
 ***
+
+Here is what the edited theme looks like
+![Bleak-Draconis Theme Example](https://github.com/gauderkd/bleak-Draconis/blob/master/assets/bleak-draconis-example.png)
+
+## Main Features
+- Easy CSS Variables for changing Theme Color scheme and Fonts
+- Menu pushed into top bar as text
+- Different hover effect for Featured posts
+- Social Icons (from [Font Awesome](http://fontawesome.io/icons/)
+- Increased excerpt length
+- 
 
 # Main Edited Files
 
 ### index.hbs
 
-- Added Social Icons using Font Awesome.
+- Added Social Icons using [Font Awesome](http://fontawesome.io/icons/).
 
 ### default.hbs
 
-- Added link to Font Awesome stylesheet
+- Added link to [Font Awesome](http://fontawesome.io/icons/) stylesheet
 - Removed ".nav-menu" and ".menu" hierarchy (no pop-up menu).
 - Moved {{navigation}} HB expression from footer to body where nav-menu was
 
