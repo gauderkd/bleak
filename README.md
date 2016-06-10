@@ -13,9 +13,8 @@ Here is what the edited theme looks like
 - Easy CSS Variables for changing Theme Color scheme and Fonts
 - Menu pushed into top bar as text
 - Different hover effect for Featured posts
-- Social Icons (from [Font Awesome](http://fontawesome.io/icons/)
+- Social Icons (from [Font Awesome](http://fontawesome.io/icons/))
 - Increased excerpt length
-- 
 
 # Main Edited Files
 
@@ -54,14 +53,7 @@ Here is what the edited theme looks like
 
 # The Rest of The Readme
 
-## Demo
-
-* [Blog](http://bleak.zutrinken.com)
-* [Post](http://bleak.zutrinken.com/demo)
-* [Tags](http://bleak.zutrinken.com/tag/general)
-* [Author](http://bleak.zutrinken.com/author/zutrinken)
-
-## Features
+## Zutrinken's Features
 
 * Responsive layout
 * Blog navigation
@@ -72,7 +64,7 @@ Here is what the edited theme looks like
 * Disqus support
 * Sharing buttons
 
-## Setup
+## Disqus Setup
 
 To enable [Disqus](https://disqus.com/) comments go to your blogs code injection settings and add `<script>var disqus="YOUR_DISQUS_SHORTNAME";</script>` to your blog header.
 
