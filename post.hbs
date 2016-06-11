@@ -10,19 +10,8 @@
 
 			<header class="post-header">
 				<span class="post-meta">
-                        <span class="aimage-postmeta-span">
-                            {{#author}}
-                                {{#if image}}
-                                    <figure class="author-image-postmeta">
-                                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
-                            </figure>
-                                {{/if}}
-                            {{/author}}
-                        </span>
-                        <div class="rest-of-meta">
-                            <span class="post-author">{{author}}</span> | <span class="post-date">{{date format="DD MMM YYYY"}} <span class="post-reading-time">| <span class="estimated-reading-time"></span> (<span class="word-count"></span> words)</span></span>
-                        </div>
-                </span>
+					<span class="post-author">{{author}}</span> | <span class="post-date">{{date format="DD MMM YYYY"}} <span class="post-reading-time">| <span class="estimated-reading-time"></span> (<span class="word-count"></span> words)</span></span>
+				</span>
 				<div class="clear"></div>
 				<h1 class="post-title">{{{title}}}</h1>
 			</header>
@@ -54,8 +43,10 @@
                             <figure class="author-image">
                                 <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
                             </figure>
-                        {{/if}}
                     <section class="author-section">
+                        {{else}}
+                    <section class="author-section-noimage">
+                        {{/if}}
                         <h4 class="author-name"><a href="{{url}}">{{name}}</a></h4>
                         {{#if bio}}
                             <p>{{bio}}</p>
@@ -63,8 +54,9 @@
                             <p>Read <a href="{{url}}">more posts</a> by this author.</p>
                         {{/if}}
                         <div class="author-meta">
-                            {{#if location}}<i class="fa fa-map-marker" aria-hidden="true"></i><div class="author-location">{{location}}</div>{{/if}}
+                            {{#if location}}<i class="fa fa-map-marker" aria-hidden="true"></i><div class="author-location">{{location}}</div>
                             <div class="author-meta-break"> | </div>
+                            {{/if}}
                             {{#if website}}<i class="fa fa-link" aria-hidden="true"></i><a href="{{website}}">{{website}}</a>{{/if}}
                         </div>
                     </section>

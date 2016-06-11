@@ -1019,7 +1019,7 @@ body {
     font-size: 0.5em;
     background: var(--webkit-main-color);
     color: #fff;
-    text-shadow: 0 0 2px #var(--webkit-secondary-color);
+    text-shadow: 0 0 2px var(--webkit-secondary-color);
     border-radius: 2em
 }
 
@@ -1055,13 +1055,13 @@ body {
 }
 
 #header .header-image {
-    width: 3em;
-    height: 3em;
+    width: 150px;
+    height: 150px;
     margin: -1em auto 1em;
     overflow: hidden;
-    border-radius: 3em;
+    border-radius: 100%;
     border: 2px solid var(--webkit-main-color);
-    background: #var(--webkit-secondary-color)
+    background: var(--webkit-secondary-color)
 }
 
 #header .header-image img {
@@ -1237,7 +1237,6 @@ body {
     font-weight: 800;
     text-indent: -1px;
     margin: 0.25em 0 0.75em;
-    float: left;
 }
 
 .post .post-title:before {
@@ -1564,11 +1563,11 @@ body {
 }
 
 .post-list .post .post-more a i {
-    color: #var(--webkit-secondary-color)
+    color: var(--webkit-secondary-color)
 }
 
 .post-footer {
-    margin: 4em 0
+    margin: 4em 0 0 0;
 }
 
 .post-footer:after {
@@ -1591,14 +1590,14 @@ body {
     padding: 0.286em 0.714em;
     border-radius: 2px;
     color: #fff;
-    text-shadow: 0 0 2px #var(--webkit-secondary-color);
+    text-shadow: 0 0 2px var(--webkit-secondary-color);
     background: var(--webkit-main-color);
     font-weight: 300
 }
 
 .post-footer .post-tags a:hover,
 .post-footer .post-tags a:focus {
-    background: #var(--webkit-secondary-color)
+    background: var(--webkit-secondary-color)
 }
 
 .post-footer .post-share {
@@ -1642,7 +1641,7 @@ body {
 }
 
 .post-comments {
-    margin: 4em 0 0;
+    margin: 0 0 0;
     border-radius: 2px
 }
 
@@ -1956,6 +1955,10 @@ body {
 .author-section {
     position: relative;
     top: -120px;
+}
+.author-section-noimage {
+    position: relative;
+    top: -20px;
 }
 .author-name {
     position: relative;
