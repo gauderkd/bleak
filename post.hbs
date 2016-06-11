@@ -35,6 +35,17 @@
 						<span>Google+</span>
 					</a>
 				</div>
+                <div class="author-info">
+                    <hr class="drakoBar">
+                    {{#author}}
+
+                        {{#if image}}
+                            <figure class="author-image">
+                                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+                            </figure>
+                        {{/if}}
+                    {{/author}}
+                </div>
 			</footer>
 			
 			<aside class="post-comments">
