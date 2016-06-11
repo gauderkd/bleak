@@ -1918,12 +1918,12 @@ body {
 
 /* Bottom Post Author Info */
 .drakoBar {
-    margin: 15px 0;
+    margin: -5px 0;
     width: 100%
 }
 .author-info {
     position: relative;
-    top: 10px;
+    top: 40px;
 }
 .author-image {
     -webkit-box-sizing: border-box;
@@ -1931,7 +1931,7 @@ body {
     box-sizing: border-box;
     display: block;
     position: relative;
-    top: -40px;
+    top: -50px;
     left: 50%;
     margin-left: -40px;
     width: 80px;
@@ -1952,16 +1952,41 @@ body {
     background-position: center center;
     border-radius: 100%;
 }
-
-.author-profile .author-image {
+.author-section {
     position: relative;
-    left: auto;
-    top: auto;
-    width: 120px;
-    height: 120px;
-    padding: 3px;
-    margin: -100px auto 0 auto;
-    box-shadow: none;
+    top: -120px;
+}
+.author-name {
+    position: relative;
+}
+.author-section p {
+    font-size: 0.9em;
+    width: 80%;
+}
+.author-meta {
+    position: relative;
+    top: -10px;
+    color: #9EABB3;
+}
+.author-meta a {
+    float: left;
+    font-size: 0.7em;
+    margin-left: 5px;
+}
+.author-meta i {
+    float: left;
+    font-size: 1em;
+    color: #9EABB3;
+}
+.author-location {
+    float: left;
+    margin-left: 5px;
+    font-size: 0.7em;
+}
+.author-meta-break {
+float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /* Hides shit */
 .hidden {

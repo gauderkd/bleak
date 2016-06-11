@@ -44,6 +44,19 @@
                                 <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
                             </figure>
                         {{/if}}
+                    <section class="author-section">
+                        <h4 class="author-name"><a href="{{url}}">{{name}}</a></h4>
+                        {{#if bio}}
+                            <p>{{bio}}</p>
+                        {{else}}
+                            <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                        {{/if}}
+                        <div class="author-meta">
+                            {{#if location}}<i class="fa fa-map-marker" aria-hidden="true"></i><div class="author-location">{{location}}</div>{{/if}}
+                            <div class="author-meta-break"> | </div>
+                            {{#if website}}<i class="fa fa-link" aria-hidden="true"></i><a href="{{website}}">{{website}}</a>{{/if}}
+                        </div>
+                    </section>
                     {{/author}}
                 </div>
 			</footer>
