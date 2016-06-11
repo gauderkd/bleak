@@ -15,6 +15,8 @@ Here is what the edited theme looks like
 - Different hover effect for Featured posts
 - Social Icons (from [Font Awesome](http://fontawesome.io/icons/)) with hover effects
 - Increased excerpt length
+- Added Author bios to bottom of Post Pages
+- Added Author image to top of Post Page meta bar
 
 [Click here to see the theme in action](http://www.fdraconis.com/)
 
@@ -29,6 +31,11 @@ Here is what the edited theme looks like
 - Added link to [Font Awesome](http://fontawesome.io/icons/) stylesheet
 - Removed ".nav-menu" and ".menu" hierarchy (no pop-up menu).
 - Moved {{navigation}} HB expression from footer to body where nav-menu was
+
+### post.hbs
+
+- Added code for Author Meta information (image, bio, links, etc) at the bottom of the posts (after tags, before Disqus)
+- Added author image to top of post meta (with the author name, date, number of words...)
 
 ### /partials/loop.hbs
 
