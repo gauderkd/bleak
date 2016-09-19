@@ -10,6 +10,7 @@ Here is what the edited theme looks like
 ![Bleak-Draconis Theme Example](https://github.com/gauderkd/bleak-Draconis/blob/master/assets/bleak-draconis-example.png)
 
 ## Main Features
+- _Subscriber Button Support!_
 - Easy CSS Variables for changing Theme Color scheme and Fonts
 - Menu pushed into top bar as text
 - Different hover effect for Featured posts
