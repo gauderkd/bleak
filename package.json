@@ -5,7 +5,7 @@
   "author": "Kyle Gauder",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gauderkd/bleak-Draconis"
+    "url": "https://github.com/gauderkd/bleak-Draconis.git"
   },
   "license": "MIT",
   "devDependencies": {
