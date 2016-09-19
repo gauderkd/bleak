@@ -2,6 +2,8 @@
 
 An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
 
+<a href="https://ghost.org"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/ghost-logo.png" height="80"/></a>
+
 Edits made by [Kyle Gauder](http://fdraconis.com). You can find the original theme [here](https://github.com/zutrinken/bleak).
 
 ***
@@ -20,6 +22,9 @@ Here is what the edited theme looks like
 - Author bios at bottom of Post Pages (similar to Casper theme)
 
 [Click here to see the theme in action](http://www.fdraconis.com/)
+
+<a href="http://sass-lang.com"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/sass-logo.png" height="80"/></a>
+<a href="http://fontawesome.io"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/fontawesome-logo.png" height="80"/></a>
 
 # Main Edited Files
 
