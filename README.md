@@ -14,6 +14,7 @@ Here is what the edited theme looks like
 - Menu pushed into top bar as text
 - Different hover effect for Featured posts
 - Social Icons (from [Font Awesome](http://fontawesome.io/icons/)) with hover effects
+- [Hover.css](https://github.com/IanLunn/Hover)
 - Increased excerpt length
 - Author bios at bottom of Post Pages (similar to Casper theme)
 
@@ -81,7 +82,7 @@ To enable [Disqus](https://disqus.com/) comments go to your blogs code injection
 Install [Grunt](http://gruntjs.com/getting-started/):
 
 	npm install -g grunt-cli
-	
+
 Install Grunt modules:
 
 	npm install
