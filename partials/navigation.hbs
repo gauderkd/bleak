@@ -1,3 +1,4 @@
+{{!--
 <i class="fa fa-bars drakoNavHMenu menuBars hvr-icon-down" aria-hidden="true"></i>
 <nav class="drakoNavHMenu">
 	<div class="navPopout">
@@ -8,10 +9,11 @@
 	{{/foreach}}
 	</div>
 </nav>
+--}}
 <nav class="drakonav">
 		{{#foreach navigation}}
 		<li class="drakolist">
-			<a class="{{slug}}{{#if current}} current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+			<a class="hvr-back-pulse {{slug}}{{#if current}} current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
 		</li>
 		{{/foreach}}
 </nav>

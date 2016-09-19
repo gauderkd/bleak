@@ -2038,19 +2038,28 @@ float: left;
 }
 /* Navigation bar I hacked in from my own project */
 
+#nav {
+  height: 4em;
+}
+
 .drakonav {
     float: right;
-    margin-top: 1em;
     display: flex;
+    height: 100%;
 }
   .drakonav li {
-      display: flex;
-      margin: auto 1em auto 1em;
-    align-self: center;
-    text-align: center;
-    font-size: 1.0em;
-      font-family: var(--font-main), sans-serif;
-    list-style-type: none;
+    display: flex;
+  height: 100%;
+  align-self: center;
+  text-align: center;
+  font-size: 1.0em;
+  font-family: var(--font-main), sans-serif;
+  list-style-type: none;
+}
+.drakonav li a {
+  height: calc(100% - 1em);
+      padding: 1em 1em 0em 1em;
+      vertical-align: middle;
 }
 
 .drakoNavHMenu {
@@ -2348,6 +2357,50 @@ cursor:pointer;
   animation-timing-function: ease-out;
 }
 
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(37, 102, 143, 0.75);
+  }
+}
+
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(37, 102, 143, 0.75);
+  }
+}
+
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: var(--webkit-main-color);
+  background-color: var(--webkit-main-color);
+  color: white;
+}
 
 @-moz-document url-prefix() {
     .author-info {top: 80px;}

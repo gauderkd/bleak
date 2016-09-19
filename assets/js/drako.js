@@ -2,13 +2,15 @@ $(document).ready(function() {
   var drakonavWidth = $('.drakonav').width();
   var logoWidth = $('.nav-logo').width();
   var availableWidth = $('#nav').width();
+  var widthCheck = (availableWidth - (logoWidth+100));
 
-  if (drakonavWidth >= (availableWidth - (logoWidth+100))) {
-    $('.drakonav').css("display","none");
+  if (drakonavWidth >= widthCheck) {
+    $('.drakonav').remove();
+    $('.drakolist').remove();
     $('.drakoNavHMenu').css("display","block");
   } else {
     $('.drakonav').css("display","flex");
-    $('.drakoNavHMenu').css("display","none");
+    $('.drakoNavHMenu').remove();
   }
 
   $('.menuBars').click(function() {
