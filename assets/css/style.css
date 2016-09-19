@@ -3,7 +3,7 @@
     --webkit-secondary-color: #25668F;
     --font-title: 'Kankin';
     --font-main: 'Merriweather Sans';
-} 
+}
 
 @font-face {
     font-family: 'Merriweather Sans';
@@ -75,11 +75,11 @@
     font-weight: normal;
     font-style: normal
 }
-@font-face{ 
+@font-face{
 font-family: 'Fabrica';
 src: url('../fonts/Fabrica.otf');
 }
-@font-face{ 
+@font-face{
 font-family: 'Kankin';
 src: url('../fonts/Kankin.otf');
 src: url('../fonts/Kankin.ttf');
@@ -2076,6 +2076,65 @@ float: left;
     font-size: 1.3em;
 }
 }
+
+.subcribe {
+  border: #e7eef2 3px solid;
+  padding: 1.0rem;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 6px 6px 15px -8px;
+}
+
+.subscribe-title {
+  margin-bottom: 0;
+  margin-top: 1em;
+  font-size: 2.4rem;
+}
+
+.subscribe-text {
+  margin: 1.5em;
+  font-size: 1.5rem;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.subscribe .form-group {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.subscribe .subscribe-email {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.subscribe .subscribe-email:focus {
+    border: #5ba4e5 1px solid;
+    transition: all ease 0.2s;
+}
+
+.subscribe button {
+    margin-left: -1px;
+    border-radius: 0 4px 4px 0;
+}
+
+.subscribe-rss {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+}
+
+
 /* Social Icons on Front Page Header w/transitions */
 .fAwesomeIcons {
     text-align: center;
