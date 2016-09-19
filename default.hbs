@@ -28,13 +28,13 @@
 						{{else}}
 						<span class="name">{{@blog.title}}</span>
 						{{/if}}
-						
+
 					</a>
 				</div>
 				{{#if @blog.navigation}}
                 {{navigation}}
                 {{/if}}
-			</nav>			
+			</nav>
 			{{{body}}}
 			<div id="body-class" style="display: none;" class="{{body_class}}"></div>
 			<footer id="footer">
@@ -47,8 +47,9 @@
 		</div>
 	</section>
 	{{ghost_foot}}
-	
+
 	<script type="text/javascript" src="{{asset "js/dependencies.js"}}"></script>
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+	<script type="text/javascript" src="{{asset "js/drako.js"}}"></script>
 </body>
 </html>

@@ -1,3 +1,13 @@
+<i class="fa fa-bars drakoNavHMenu menuBars hvr-icon-down" aria-hidden="true"></i>
+<nav class="drakoNavHMenu">
+	<div class="navPopout">
+	{{#foreach navigation}}
+	<li class="hiddendrakolist">
+		<a class="{{slug}}{{#if current}} current{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+	</li>
+	{{/foreach}}
+	</div>
+</nav>
 <nav class="drakonav">
 		{{#foreach navigation}}
 		<li class="drakolist">
@@ -5,4 +15,3 @@
 		</li>
 		{{/foreach}}
 </nav>
-<div class="overlay"></div>
