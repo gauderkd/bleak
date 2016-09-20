@@ -4,15 +4,16 @@ An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [
 
 <a href="https://ghost.org"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/ghost-logo.png" height="80"/></a>
 
-Edits made by [Kyle Gauder](http://fdraconis.com). You can find the original theme [here](https://github.com/zutrinken/bleak).
+Edits made by [Kyle Gauder](http://www.fdraconis.com). You can find the original theme [here](https://github.com/zutrinken/bleak).
 
 ***
 
 Here is what the edited theme looks like
-![Bleak-Draconis Theme Example](https://github.com/gauderkd/bleak-Draconis/blob/master/assets/bleak-draconis-example.png)
+![Bleak-Draconis Theme Example](https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/website%20capture%20sep%202016.PNG)
 
 ## Main Features
 - _Subscriber Button Support!_
+- Featured video on first page
 - Easy CSS Variables for changing Theme Color scheme and Fonts
 - Menu pushed into top bar as text
 - Different hover effect for Featured posts
@@ -23,7 +24,7 @@ Here is what the edited theme looks like
 
 [Click here to see the theme in action](http://www.fdraconis.com/)
 
-<a href="http://sass-lang.com"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/sass-logo.png" height="80"/></a>
+<!--<a href="http://sass-lang.com"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/sass-logo.png" height="80"/></a>-->
 <a href="http://fontawesome.io"><img src="https://github.com/gauderkd/bleak-Draconis/blob/master/readme-assets/fontawesome-logo.png" height="80"/></a>
 
 # Main Edited Files
@@ -46,6 +47,7 @@ Here is what the edited theme looks like
 ### /partials/loop.hbs
 
 - Changed "post-excerpt" word number from 15 to 50 (line 19)
+- Added an card before the post loop to embed a video. Simply change the iframe out for a new video, or remove everything in the {{#is}} statement to get rid of it.
 
 ### /partials/navigation.hbs
 
