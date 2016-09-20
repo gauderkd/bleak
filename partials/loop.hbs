@@ -1,15 +1,13 @@
 <div class="post-list">
 
 <div id="push">
-<div class="higherSection">
-
-</div>
-<div class="lowerSection">
-    <article class="featureArticle post">
-        <div class="inner featureVid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iKEaNCNHUjo" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </article>
+    {{#is "home"}}
+        <article class="featureArticle post">
+            <div class="inner featureVid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iKEaNCNHUjo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </article>
+    {{/is}}
     {{#foreach posts}}
         <article class="{{post_class}}">
             <div class="inner">
@@ -28,7 +26,6 @@
             </div>
         </article>
     {{/foreach}}
-</div>
 
 </div>
 
